@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RGB to HEX converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <form id="colorPanel">
+    <h3>RGB to HEX</h3>
+
+    <br>
+
+    <div>
+      <label id="redLabel">R</label>
+      <input id="red" type="range" name="red" min="0" max="255" step="1">
+      <output id="redValue" for="red"></output>
+    </div>
+
+    <br>
+
+    <div>
+      <label id="greenLabel">G</label>
+      <input id="green" type="range" name="green" min="0" max="255" step="1">
+      <output id="greenValue" for="green"></output>
+    </div>
+
+    <br>
+
+    <div>
+      <label id="blueLabel">B</label>
+      <input id="blue" type="range" name="blue" min="0" max="255" step="1">
+      <output id="blueValue" for="blue"></output>
+    </div>
+
+    <br>
+
+    <div id="hexValue" title="Click to copy!"></div>
+
+  </form>
+  <script src="main.js"></script>
+</body>
+
+</html>

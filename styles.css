@@ -1,0 +1,60 @@
+body {
+ font-family: Arial;
+ font-weight: bold;
+}
+
+#colorPanel {
+  margin-top: 10%;
+  min-width: 300px;
+}
+
+h3, div {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  justify-content: center;
+}
+
+#hexValue {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  line-height: 200%;
+  font-size: 150%;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+label, output {
+  border: 2px solid lightGray;
+  border-radius: 10px;
+  line-height: 200%;
+  width: 100px;
+  margin-top: 5px;
+  font-size: 100%;
+  color: lightGray;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+}
+
+#redLabel, #redValue {
+  background-color: red;
+}
+
+#greenLabel, #greenValue {
+  background-color: green;
+}
+
+#blueLabel, #blueValue {
+  background-color: blue;
+}
+
+
