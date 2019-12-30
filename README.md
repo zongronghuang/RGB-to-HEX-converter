@@ -9,9 +9,6 @@ By moving the sliders for RGB values, you view the corresponding color and get a
 
 ![converter screenshot](screenshot.png)
 
-Demo:
-[https://codepen.io/Zong-Rong/full/LYExdMJ](https://codepen.io/Zong-Rong/full/LYExdMJ)
-
 
 ***
 ### Updates
